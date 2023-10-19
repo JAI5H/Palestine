@@ -1,0 +1,98 @@
+/* Add some additions and modifications by Amr Khaled:
+Insta: @JAI5h
+
+*/
+
+/* Freedom For Palestine For Ever */
+
+* {
+  /* font-family: "Cairo", sans-serif; */
+  font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+.free {
+  margin: 0;
+  text-shadow: 2px 2px 2px #000;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+}
+
+  .logo h2{
+    text-shadow: 2px 2px 2px #000;
+  }
+
+.palestine {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image:
+   url(w8p8w56a.png);
+   filter: blur(4px);
+  width: 120%;
+  height: 120%;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 5vmax;
+  line-height: 1;
+}
+
+.logo h1 span {
+  font-size: 10vmax;
+  background: -webkit-linear-gradient(transparent, transparent),
+    url("https://d33wubrfki0l68.cloudfront.net/0bf298e92a939f83dcc1dc20712ac19ca6f41b2c/5c2e7/img/flag_of_palestine.svg");
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  color: white;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  -text-fill-color: transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: 1280px 863px;
+  -moz-background-size: 1280px 863px;
+  -ms-background-size: 1280px 863px;
+  background-size: 1280px 863px;
+  animation: positionBackground 20s infinite linear;
+}
+
+@keyframes positionBackground {
+  0%,
+  100% {
+    background-position: 0 0%;
+  }
+  50% {
+    background-position: 0 100%;
+  }
+}
+
+/* Freedom For Palestine For Ever */
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+  .logo {
+  
+    left: 55%;
+  
+  }
+}
